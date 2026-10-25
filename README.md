@@ -2,6 +2,12 @@
 
 ![小猫桌宠预览](preview.png)
 
+## 直接下载（Windows，无需 Python）
+
+[**下载 MochiCat-Windows.zip**](https://github.com/cxt425/mochi-headphone-cat/releases/latest)
+
+解压后双击 `MochiCat.exe` 就能运行，不需要安装 Python。首次运行如果出现 Windows SmartScreen 提示，点“更多信息” → “仍要运行”。
+
 一只戴着大耳机的极简线条小猫：白色身体、黑色线条、闭着的眼睛和一个小圆点。脸和耳机微微向右偏一点，身体收窄了一些，看起来像轻轻侧着身，但始终只保留正面造型。右侧有一条向上翘、会轻轻晃的小尾巴。
 
 无边框、透明背景、始终置顶，所有画面都由 PySide6 实时绘制，不需要任何图片素材。

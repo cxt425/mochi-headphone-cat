@@ -41,7 +41,12 @@ SCALE = 0.48
 W, H = round(BASE_W * SCALE), round(BASE_H * SCALE)
 CX = BASE_W / 2
 GROUND = 338.0
-SETTINGS_PATH = Path(__file__).resolve().with_name("cat_settings.json")
+
+if getattr(sys, "frozen", False):
+    # 打包成 exe 后，设置文件放在 exe 旁边，方便保存位置
+    SETTINGS_PATH = Path(sys.executable).resolve().with_name("cat_settings.json")
+else:
+    SETTINGS_PATH = Path(__file__).resolve().with_name("cat_settings.json")
 
 INK = QColor("#111111")
 PAPER = QColor("#FFFDF8")

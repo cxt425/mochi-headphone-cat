@@ -4,6 +4,16 @@ cat_settings.json
 # Windows 权限修复备份，不属于项目
 .acl-recovery/
 
+# 打包产物
+build/
+build_portable/
+dist/
+dist_portable/
+*.spec
+*.ico
+*.zip
+cat_icon.png
+
 # Python / 缓存
 __pycache__/
 *.py[cod]
