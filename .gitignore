@@ -1,0 +1,16 @@
+# 用户本地设置
+cat_settings.json
+
+# Windows 权限修复备份，不属于项目
+.acl-recovery/
+
+# Python / 缓存
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# 其他系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
